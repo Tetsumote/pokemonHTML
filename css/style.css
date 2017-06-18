@@ -5,6 +5,32 @@
 		padding: 0;
 		
 	}
+		#loader{
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: radial-gradient(#00a9ff,#0078D0 );
+	}
+	#anim{
+		width: 25px;
+		
+		animation: spin 2s linear infinite;
+	}
+	@keyframes spin{
+		0%{transform: rotate(0deg);}
+		100%{transform: rotate(360deg);}
+	}
+	@keyframes example{
+		from{opacity: 0;}
+		to{opacity: 1;}
+	}
+	.animate{
+		animation-name:example;
+		animation-duration:3s;
+	}
 	header{
 	width: 100%;
 	height: 100px;

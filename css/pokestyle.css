@@ -6,6 +6,14 @@ html,body{
 		background: #00a9ff;
 		
 	}
+	@keyframes example{
+		from{opacity: 0;}
+		to{opacity: 1;}
+	}
+	.animate{
+		animation-name:example;
+		animation-duration:3s;
+	}
 	header{
 	width: 100%;
 	height: 100px;
